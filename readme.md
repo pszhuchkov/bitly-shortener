@@ -10,18 +10,18 @@
 *`BITLY_TOKEN=your_personal_token`*  
 *Пример: `BITLY_TOKEN=17c09e20ad155405123ac1977542fecf00231da7`*
 4. Python3 должен быть уже установлен. 
-Затем используйте `pip` (или `pip3`, если есть конфликт с Python2) для установки зависимостей:
-```
+Использовать `pip` (или `pip3`, если есть конфликт с Python2) для установки зависимостей:
+```console
 pip install -r requirements.txt
 ```
 ### Примеры использования
 #### Получение сокращенной ссылки
-```
+```console
 python main.py http://google.ru
 Битлинк https://bit.ly/3a8SQ8u
 ```
 #### Получение количества совершенных переходов по сокращенной ссылке
-```
+```console
 python main.py https://bit.ly/3a8SQ8u
 Количество переходов: 2
 ```
