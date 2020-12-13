@@ -7,7 +7,7 @@
 1. Зарегистрироваться в [Bitly](https://bitly.com/)
 2. В личном кабинете сервиса получить персональный токен (`GENERIC ACCESS TOKEN` — нужный тип токена). Документация сервиса находится по адресу https://dev.bitly.com
 3. В директории с файлом `main.py` создать файл `.env`, который должен содержать переменную `BITLY_TOKEN`:
-*`BITLY_TOKEN=your_personal_token`*
+*`BITLY_TOKEN=your_personal_token`*  
 *Пример: `BITLY_TOKEN=17c09e20ad155405123ac1977542fecf00231da7`*
 4. Python3 должен быть уже установлен. 
 Затем используйте `pip` (или `pip3`, если есть конфликт с Python2) для установки зависимостей:
