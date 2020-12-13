@@ -25,7 +25,6 @@ python main.py http://google.ru
 python main.py https://bit.ly/3a8SQ8u
 Количество переходов: 2
 ```
-![Примеры использования](/images/bitly_using.png)
  
 ### Цель проекта
 
